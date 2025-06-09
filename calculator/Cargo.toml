@@ -1,0 +1,9 @@
+[package]
+name = "calculator"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tonic = { version = "0.13.1", default-features = false}
+tokio = { version = "1.45.1", features = ["full"] }
+prost = { version = "0.13.5", default-features = false }
